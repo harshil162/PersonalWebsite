@@ -6,15 +6,13 @@
 }
 
 .port__title {
-    color: var(--clr-main);
-    /* color: green; */
+    color: var(--clr-main)
+    /*color: green;*/
 }
-
 #portfolio {
-    display: flex;
+    display:flex;
     justify-content: center;
 }
-
 .port__grid {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
@@ -23,18 +21,18 @@
 
 .proj {
     max-width: 18em;
-    height: 15em; /* Set a fixed height for .proj elements */
     margin-bottom: 1em;
-    overflow: hidden; /* Hide overflow to prevent distortion */
 }
 
 .proj img {
+    max-width: 18em;
     width: 100%;
+    max-height: 10em;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and fill the container */
+    object-fit: contain;
 }
 
-.port__btn {
+.port__btn{
     background-color: var(--clr-main);
     color: white;
     border: none;
@@ -49,8 +47,9 @@
 }
 
 .port__btn:hover {
-    opacity: 0.7; /* Adjust opacity value */
+    opacity: 70%;
 }
+
 
 @media (max-width: 800px) {
     .port__grid {
