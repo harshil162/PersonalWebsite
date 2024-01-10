@@ -26,7 +26,7 @@ const Experiences = () => {
                         <img src={Image2}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">UF Google Developer Student Club - Advertising Lead</h1>
-                            <p class="exp__body">I oversee any advertising related materials, including setup of tabling events.</p>
+                            <p class="exp__body">I oversee advertising related materials, setup of tabling events, and club website maintenance.</p>
                         </div>
                     </div>
 
